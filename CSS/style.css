@@ -1,5 +1,6 @@
 :root {
-    ---pr-color: #34B3F1;
+    /* ---pr-color: #34B3F1; */
+    ---pr-color: #F18121;
     ---grey1-color: #F2F2F2;
     ---grey2-color: #9b9b9b;
     ---grey3-color: #ddd;
@@ -126,7 +127,7 @@ body {
 
 /* Home Section Style */
 #home {
-    background: url(/Assets/bg_home_opacity10.png) no-repeat;
+    background: url(/Assets/bg4-03.png) no-repeat;
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -150,6 +151,7 @@ body {
     letter-spacing: 0.5px;
     font-weight: 400;
     margin-top: 16px;
+    margin-bottom: 32px;
     opacity: 80px;
 }
 
@@ -157,7 +159,7 @@ body {
     width: 90%;
     font-size: 40px;
     font-weight: 600;
-    background: -webkit-linear-gradient(-45deg, #76e1ff, #1CB5E0, #7340e9);
+    background: -webkit-linear-gradient(-45deg, #ffd86e, #F18121, #cf2a00);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -189,7 +191,6 @@ body {
     font-weight: 700;
     padding: 8px 40px;
     width: 200px;
-    margin-top: 16px;
     border-radius: 5px;
     background: transparent;
     border: solid 1px var(---pr-color);
@@ -214,7 +215,7 @@ body {
 /* Our Project Section Style */
 
 #our_project {
-    background: url(/Assets/bg_home_opacity10.png) no-repeat;
+    background: url(/Assets/bg4-03.png) no-repeat;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -915,3 +916,32 @@ body {
 }
 
 /* end of contact style */
+
+
+/* tentang Kami */
+#tentang-kami {
+    background-color: var(---grey1-color);
+    height: 100vh;
+}
+
+#tentang-kami h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#tentang-kami .container {
+    padding-top: 100px;
+}
+
+.deskripsi-ofh h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.deskripsi-ofh {
+    text-align: justify;
+}
+
+/* end of tentang Kami */

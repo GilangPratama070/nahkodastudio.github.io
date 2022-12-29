@@ -65,6 +65,16 @@
         font-size: 20px;
         font-weight: 500;
     }
+
+    /* tentang Kami */
+    #tentang-kami {
+        background-color: var(---grey1-color);
+        height: max-content;
+    }
+
+    #tentang-kami img {
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 350px) {}
